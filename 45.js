@@ -5,7 +5,7 @@ function minNumber(num) {
 
   for (let i= 0; i<digits.length; i++) {
     let digit = parseInt(digits[i]);
-    if (digit <min) {
+    if (digit < min) {
       min = digit;
     }
   }

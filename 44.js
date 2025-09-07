@@ -3,7 +3,7 @@ function maxNumber(num) {
   let digits = num.toString().split("");
   let max = 0;
 
-  for (let i= 0; i <digits.length; i++) {
+  for (let i = 0; i < digits.length; i++) {
     let digit = parseInt(digits[i]);
     if (digit > max) {
       max = digit;

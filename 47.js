@@ -3,7 +3,7 @@
 // (miavorneri arjeqy 0 che)
 
 
-function number4(num) {
+function number(num) {
   if (num < 100 || num > 999) {
     return;
   }

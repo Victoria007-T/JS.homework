@@ -5,8 +5,8 @@ function number1(num) {
     return false;
 
   let units = num%10; 
-  let tens = Math.floor((num % 100) / 10); 
-  let hundreds = Math.floor(num / 100);
+  let tens = Math.floor ((num % 100) / 10); 
+  let hundreds = Math.floor (num / 100);
 
   return units === tens || units === hundreds || hundreds === tens;
 }

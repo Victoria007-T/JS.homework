@@ -10,8 +10,8 @@ function number3(num) {
 
   let units = num % 10;
   let tens = Math.floor((num % 100) / 10);
-  let hundreds = Math.floor(num/100);
-  let sum = units+tens+hundreds
+  let hundreds = Math.floor(num / 100);
+  let sum = units + tens + hundreds
 
   if (units > tens) {
     console.log(sum / num);

@@ -7,7 +7,7 @@ function number(num) {
     return false; 
   }
 
-  let units = num%10; 
+  let units = num % 10; 
   let tens = Math.floor((num % 100) / 10); 
   let hundreds = Math.floor(num / 100);
 

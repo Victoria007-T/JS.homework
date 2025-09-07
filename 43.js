@@ -13,8 +13,8 @@ function number2(num, k) {
   let sum = units+tens+hundreds
 
   if (num > k) {
-    console.log(num / sum);
+    console.log (num / sum);
   } else {
-    console.log(units / num);
+    console.log (units / num);
   }
 }
