@@ -8,14 +8,14 @@ function number5(num) {
     return;
   }
 
-  let thousands=Math.floor(num/1000);
-  let hundreds=Math.floor((num % 1000)/100);
-  let tens=Math.floor((num % 100)/10);
-  let units=num % 10;
+  let thousands = Math.floor(num/1000);
+  let hundreds = Math.floor((num % 1000)/100);
+  let tens = Math.floor((num % 100)/10);
+  let units = num % 10;
 
 
 
-  if (units+tens===hundreds+thousands) {
+  if (units+tens === hundreds+thousands) {
    return true
   } else {
    return false

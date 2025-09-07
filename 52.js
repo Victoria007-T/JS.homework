@@ -8,10 +8,10 @@ function number6(num) {
     return;
   }
 
-  let thousands=Math.floor(num/1000);
-  let hundreds=Math.floor((num % 1000)/100);
-  let tens=Math.floor((num % 100)/10);
-  let units=num % 10;
+  let thousands = Math.floor(num/1000);
+  let hundreds = Math.floor((num % 1000)/100);
+  let tens = Math.floor((num % 100)/10);
+  let units = num % 10;
  if (units === 0) {
     return;
   }
@@ -19,12 +19,12 @@ function number6(num) {
  if (hundreds === 0) {
     return;
   }
-let sum1=tens+units
-let sum2=thousands+hundreds
+let sum1 = tens+units
+let sum2 = thousands+hundreds
 
-  if (num<5000) {
-   console.log(num/sum1)
+  if (num < 5000) {
+   console.log(num / sum1)
   } else {
-   console.log(num/sum2)
+   console.log(num / sum2)
   }
 }

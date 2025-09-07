@@ -8,18 +8,18 @@ function number4(num) {
     return;
   }
 
-  let units=num % 10;
-  let tens=Math.floor((num % 100) / 10);
-  let hundreds=Math.floor(num/100);
+  let units = num % 10;
+  let tens = Math.floor((num % 100) / 10);
+  let hundreds = Math.floor(num / 100);
 
   if (units === 0) {
     return;
   }
 
 
-  if (num>300) {
-    console.log(tens/units);
+  if (num > 300) {
+    console.log(tens / units);
   } else {
-    console.log(hundreds/units);
+    console.log(hundreds / units);
   }
 }

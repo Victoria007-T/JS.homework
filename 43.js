@@ -7,14 +7,14 @@ function number2(num, k) {
     return;
   }
 
-  let units=num % 10;
-  let tens=Math.floor((num % 100) / 10);
-    let hundreds=Math.floor(num/100);
-    let sum=units+tens+hundreds
+  let units = num % 10;
+  let tens = Math.floor((num % 100) / 10);
+  let hundreds = Math.floor(num / 100);
+  let sum = units+tens+hundreds
 
   if (num > k) {
-    console.log(num/sum);
+    console.log(num / sum);
   } else {
-    console.log(units/num);
+    console.log(units / num);
   }
 }

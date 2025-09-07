@@ -4,9 +4,9 @@ function number1(num) {
   if (num < 100 || num > 999) 
     return false;
 
-  let units=num%10; 
-  let tens=Math.floor((num % 100)/10); 
-  let hundreds=Math.floor(num/100);
+  let units = num%10; 
+  let tens = Math.floor((num % 100) / 10); 
+  let hundreds = Math.floor(num / 100);
 
   return units === tens || units === hundreds || hundreds === tens;
 }
