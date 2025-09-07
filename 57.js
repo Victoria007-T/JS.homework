@@ -3,20 +3,20 @@
 // hakarak depqum "NO"
 
 function number11(num) {
-  if (num< 1000 || num> 9999) {
+  if (num < 1000 || num > 9999) {
     return;
   }
 
-  let thousands=Math.floor(num/1000);
-  let hundreds=Math.floor((num % 1000)/100);
-  let tens=Math.floor((num % 100)/10);
-  let units=num % 10; 
+  let thousands = Math.floor(num / 1000);
+  let hundreds = Math.floor((num % 1000) /100);
+  let tens = Math.floor((num % 100) / 10);
+  let units = num % 10; 
   
-  let sum=(thousands+hundreds+tens+units)**2
+  let sum = (thousands+hundreds+tens+units) ** 2
 
 
 
-  if (num===sum ) {
+  if (num === sum ) {
    console.log("YES");
    
   } else {

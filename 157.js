@@ -3,10 +3,10 @@
 // voronq bazmapatik chen 5i
 
 function divisible5(num){
-  let sum=0;
+  let sum = 0;
 
-  for (let i=100; i<=999;i++) {
-    if (i%5!==0) {
+  for (let i = 100; i <= 999; i++) {
+    if (i%5 !== 0) {
       sum += i;
     }
   }

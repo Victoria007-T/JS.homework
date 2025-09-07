@@ -3,10 +3,10 @@
 // voronq bazmapatik chen 3i ev 2i
 
 function divisible3(num){
-   let count= 0
+   let count = 0
 
-  for (let i=100; i<=999;i++) {
-    if (i%2!==0 && i%3!==0) {
+  for (let i = 100; i <= 999; i++) {
+    if (i%2 !== 0 && i%3 !== 0) {
       count ++;
     }
   }

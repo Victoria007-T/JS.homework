@@ -5,10 +5,10 @@ function number7(num) {
     return;
   }
 
-  let thousands=Math.floor(num/1000);
-  let hundreds=Math.floor((num % 1000)/100);
-  let tens=Math.floor((num % 100)/10);
-  let units=num % 10;
+  let thousands = Math.floor(num/1000);
+  let hundreds = Math.floor((num % 1000)/100);
+  let tens = Math.floor((num % 100)/10);
+  let units = num % 10;
  if (units === 1 || tens === 1||hundreds === 1 ||thousands === 1) {
     console.log(1);
   }else{
