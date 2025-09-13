@@ -2,7 +2,7 @@
 //57. ktpi "YES" ete qaranish tivy = nra tvanshanneri gumari qarakusun
 // hakarak depqum "NO"
 
-function number11(num) {
+function number(num) {
   if (num < 1000 || num > 9999) {
     return;
   }
@@ -17,9 +17,10 @@ function number11(num) {
 
 
   if (num === sum ) {
-   console.log("YES");
+    return "YES" ;
    
   } else {
-  console.log("NO");
+  return "NO";
   }
 }
+

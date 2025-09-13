@@ -1,6 +1,6 @@
 //58. khashven ev ktpen qaranish tvi miavorneri ev haryueavorneri artadryaly, ete
 //miavorneri tvanshany mets e haryueavorneri tvanshanic, hakarak depqum ktpen "1"
-function number11(num) {
+function number(num) {
   if (num < 1000 || num > 9999) {
     return;
   }
@@ -10,9 +10,9 @@ function number11(num) {
   let units = num % 10; 
   
   if (units > hundreds) {
-   console.log(units * hundreds);
+   return units * hundreds ;
    
   } else {
-  console.log(1);
+  return 1;
   }
 }

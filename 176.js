@@ -1,5 +1,5 @@
 //176. zuyg index unecox tareri artadryaly
-function even1(arr) {
+function even(arr) {
   let product = 1;
   let count = 0;
 

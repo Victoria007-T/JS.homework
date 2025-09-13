@@ -2,7 +2,7 @@
 //158. tpel bolor ayn eranish tveri qanaky
 // voronq bazmapatik chen 3i ev 2i
 
-function divisible3(num){
+function number(num){
    let count = 0
 
   for (let i = 100; i <= 999; i++) {

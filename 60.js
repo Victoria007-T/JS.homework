@@ -1,7 +1,7 @@
 //60. y popoxakany kveradardzni "0" arjeq ete qaranish tvi tvanshanneri  
 // artadryaly >e 200ic hakarak depqum "1" arjeq
 
-function number8(y) {
+function number(y) {
   if (y < 1000 || y > 9999) {
     return;
   }
@@ -15,9 +15,9 @@ let product = thousands * hundreds * tens * units
 
 
   if (product > 200) {
-   console.log(0);
+   return 0;
    
   } else {
-  console.log(1)
+  return 1
   }
 }

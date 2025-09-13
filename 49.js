@@ -6,3 +6,6 @@ function sort(num) {
 }
 
 console.log(sort(472)); 
+
+console.log(number(225));
+console.log(number(404))

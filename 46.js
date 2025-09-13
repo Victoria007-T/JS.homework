@@ -3,7 +3,7 @@
 // miavorneri tvanshany mets e tasnavorneri tvanshanic hakarak depqum tpel eranish tivy
 
 
-function number3(num) {
+function number(num) {
   if (num < 100 || num > 999) {
     return;
   }
@@ -14,8 +14,10 @@ function number3(num) {
   let sum = units + tens + hundreds
 
   if (units > tens) {
-    console.log(sum / num);
+    return sum / num 
   } else {
-    console.log(num);
+    return num 
   }
 }
+console.log(number(875)); 
+console.log(number(301)); 

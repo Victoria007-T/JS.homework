@@ -2,7 +2,7 @@
 //157. tpel bolor ayn eranish tveri gumary
 // voronq bazmapatik chen 5i
 
-function divisible5(num){
+function number(num){
   let sum = 0;
 
   for (let i = 100; i <= 999; i++) {

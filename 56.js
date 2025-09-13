@@ -1,7 +1,7 @@
 //56. ktpi "YES" ete qaranish tvi arajin ev verjin tvanshani mej ka
 // "4" tvanshany hakarak depqym "NO"
 
-function number10(num) {
+function number(num) {
   if (num < 1000 || num > 9999) {
     return;
   }
@@ -11,9 +11,9 @@ function number10(num) {
 
 
   if (units === 4 && thousands === 4  ) {
-   console.log("YES");
+   return "YES" ;
    
   } else {
-  console.log("NO");
+  return "NO";
   }
 }

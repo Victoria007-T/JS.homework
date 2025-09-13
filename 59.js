@@ -2,7 +2,7 @@
 //59.y popoxakany kveradardzni "1" arjeq ete qaranish tvi tvanshanneri  
 // gumary >e 20ic hakarak depqum "0" arjeq
 
-function number8(y) {
+function number(y) {
   if (y < 1000 || y > 9999) {
     return;
   }
@@ -16,10 +16,10 @@ let sum = thousands+hundreds+tens+units
 
 
   if (sum > 12) {
-   console.log(1);
+   return 1;
    
   } else {
-  console.log(0)
+  return 0
   }
 }
 

@@ -1,0 +1,1 @@
+// tpen bolor ayn bnakan tveri artadryaly voronc vra trvats <n> bnakan tivy bajanelis kta 3 nmacord

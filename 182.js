@@ -1,0 +1,1 @@
+// 183. trvats [c,d) mijakayqin patkanox tarreri artadryaly

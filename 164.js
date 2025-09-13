@@ -1,0 +1,1 @@
+// tpen ayn amenapoqr eranish tivy vori qarakusi armaty mets e trvats <n> bnakan tvic 

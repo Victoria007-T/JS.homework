@@ -1,6 +1,6 @@
 //42. function vory kveradardzni true ete eranish tvi mej kan irar havasar tvanshanner
 // hakarak depqum false
-function number1(num) {
+function number(num) {
   if (num < 100 || num > 999) 
     return false;
 
@@ -10,5 +10,5 @@ function number1(num) {
 
   return units === tens || units === hundreds || hundreds === tens;
 }
-console.log(number1(225));
-console.log(number1(404))
+console.log(number(225));
+console.log(number(404))

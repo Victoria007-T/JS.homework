@@ -17,3 +17,5 @@ function number(f) {
   }
 }
 
+console.log(number(225));
+console.log(number(404))

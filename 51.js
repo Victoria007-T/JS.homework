@@ -3,7 +3,7 @@
 // hakarak depqum ktpi false
 
 
-function number5(num) {
+function number(num) {
   if (num < 1000 || num > 9999) {
     return;
   }

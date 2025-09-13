@@ -18,8 +18,8 @@ function number(num) {
 
 
   if (num > 300) {
-    console.log(tens / units);
+    return tens / units;
   } else {
-    console.log(hundreds / units);
+    return hundreds / units;
   }
 }

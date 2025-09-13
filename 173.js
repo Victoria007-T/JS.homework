@@ -1,0 +1,1 @@
+//173. tpel bacasakan tareri mijin qarakusayiny

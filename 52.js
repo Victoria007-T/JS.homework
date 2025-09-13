@@ -3,7 +3,7 @@
 //  qaranish tvi haraberutyan arjeqy hazaravorneri ev haryuravorneri tvanshanneri gumarin
 // (miavorner ev haryuravorner =che 0)
 
-function number6(num) {
+function number(num) {
   if (num < 1000 || num > 9999) {
     return;
   }
@@ -23,8 +23,11 @@ let sum1 = tens+units
 let sum2 = thousands+hundreds
 
   if (num < 5000) {
-   console.log(num / sum1)
+   return num / sum1
   } else {
-   console.log(num / sum2)
+   return num / sum2
   }
 }
+
+console.log(number(205));
+console.log(number(400))
